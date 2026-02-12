@@ -17,13 +17,13 @@ const [activePage, setActivePage] = useState("home");
         <NavCategories/>
         <BannerCards/>
         <MenuSection/>
+        <Footer/>
       </>
     ) : (
       <>
         <OrderInputForm setActivePage={setActivePage}/>
       </>
     )}
-    <Footer/>
     </>
   );
 }

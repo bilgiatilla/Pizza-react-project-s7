@@ -4,7 +4,7 @@ export function OrderSize() {
   return (
     <form>
       <section className="order-radio-button">
-        <h2>BOYUT SEÇ</h2>
+        <h2>Boyut Seç</h2>
         <label htmlFor="bigSize">
           <input id="bigSize" type="radio" name="size" value="Büyük" />
           Büyük
